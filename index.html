@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    @import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="topo">
+    <img src="img/Logo.png">
+  </header>
+
+  <div class="container">
+
+    <div class="lado-esquerdo">
+      <div class="catalog">
+        <h2 class="mod">Escolha o modelo</h2>
+
+        <div class="modelos">
+
+          <div class="t-shirt">
+            <div class="bordermodelo" onclick="selecionarModelo(this,'t-shirt')">
+              <img class="img" src="img/tshirt.png">
+            </div>
+            <p class="modelo">T-shirt</p>
+          </div>
+
+          <div class="camiseta">
+            <div class="bordermodelo" onclick="selecionarModelo(this,'long')">
+              <img class="img" src="img/Camiseta.png">
+            </div>
+            <p class="modelo">Camiseta</p>
+          </div>
+
+          <div class="mangalonga">
+            <div class="bordermodelo" onclick="selecionarModelo(this,'top-tank')">
+              <img class="img" src="img/Mangalonga.png">
+            </div>
+            <p class="modelo">Manga longa</p>
+          </div>
+        </div>
+
+        <h2 class="egola">Escolha a gola</h2>
+
+        <div class="golas">
+
+          <div class="golav">
+            <div class="bordergola" onclick="selecionarGola(this,'v-neck')">
+              <img class="img" src="img/GolaV.png">
+            </div>
+            <p class="gola">Gola V</p>
+          </div>
+
+          <div class="golaredonda">
+            <div class="bordergola" onclick="selecionarGola(this,'round')">
+              <img class="img" src="img/GolaRedonda.png">
+            </div>
+            <p class="gola">Gola Redonda</p>
+          </div>
+
+          <div class="golapolo">
+            <div class="bordergola" onclick="selecionarGola(this,'polo')">
+              <img class="img" src="img/GolaPolo.png">
+            </div>
+            <p class="gola">Gola polo</p>
+          </div>
+
+        </div>
+
+        <h2 class="etecido">Escolha o tecido</h2>
+
+        <div class="tecidos">
+
+          <div class="seda">
+            <div class="bordertecido" onclick="selecionarTecido(this,'silk')">
+              <img class="img" src="img/Seda.png">
+            </div>
+            <p class="tecido">Seda</p>
+          </div>
+
+          <div class="algodao">
+            <div class="bordertecido" onclick="selecionarTecido(this,'cotton')">
+              <img class="img" src="img/Algodão.png">
+            </div>
+            <p class="tecido">Algodão</p>
+          </div>
+
+          <div class="poliester">
+            <div class="bordertecido" onclick="selecionarTecido(this,'polyester')">
+              <img class="img" src="img/Poliester.png">
+            </div>
+            <p class="tecido">Poliéster</p>
+          </div>
+
+        </div>
+
+        <h2 class="imgref">Imagem de referência</h2>
+        <div class="link-img">
+        </div>
+        <input onchange="verificarLink()" type="text" placeholder="Insira o link">
+        <button onclick="confirmarPedido()">Confirmar pedido</button>
+
+      </div>
+
+
+
+    </div>
+
+    <div class="lado-direito">
+      <img src="img/ilustração.png">
+    </div>
+
+
+
+  </div>
+
+
+  <footer>
+    <div class="footer-titulo">
+      <h3>Ultimos pedidos</h3>
+    </div>
+
+
+    <div class="camisetas">
+
+      <div class="camisa">
+        <div class="camisa-img">
+          <img src="img/Blusa1.png">
+        </div>
+        <div class="criador">
+          <h4>Criador: Agata</h4>
+        </div>
+      </div>
+
+      <div class="camisa">
+        <div class="camisa-img">
+          <img src="img/Blusa2.png">
+        </div>
+        <div class="criador">
+          <h4>Criador: Bruna</h4>
+        </div>
+      </div>
+
+      <div class="camisa">
+        <div class="camisa-img">
+          <img src="img/Blusa3.png">
+        </div>
+        <div class="criador">
+          <h4>Criador: Camila</h4>
+        </div>
+      </div>
+
+      <div class="camisa">
+        <div class="camisa-img">
+          <img src="img/Blusa4.png">
+        </div>
+        <div class="criador">
+          <h4>Criador: Daniel</h4>
+        </div>
+      </div>
+
+      <div class="camisa">
+        <div class="camisa-img">
+          <img src="img/Blusa5.png">
+        </div>
+        <div class="criador">
+          <h4>Criador: Ester</h4>
+        </div>
+      </div>
+
+
+
+    </div>
+  </footer>
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,288 @@
+body {
+  width: 1366px;
+  height: 1215px;
+}
+.topo {
+  width: 1366px;
+  height: 89px;
+  left: 0;
+  top: 0;
+  background-color: #404eed;
+}
+header img {
+  width: 339.23px;
+  height: 56.64px;
+  margin-top: 16.18px;
+  margin-left: 80.04px;
+}
+.container {
+  width: 1366px;
+  background-color: #fcfcfc;
+  display: flex;
+}
+
+.lado-esquerdo {
+  width: 695.51px;
+  height: 785px;
+  background-color: #ffffff;
+}
+.lado-direito {
+  width: 670.49px;
+  height: 785px;
+  background-color: #404eed;
+}
+
+.catalog {
+  width: 400.35px;
+  height: 706.36px;
+  margin-left: 121.99px;
+  margin-top: 38.32px;
+}
+
+.lado-direito img {
+  width: 607px;
+  height: 702px;
+}
+
+footer {
+  width: 1366px;
+  height: 342px;
+  background-color: #f2f2f2;
+  margin-top: 0px;
+  margin-left: 0px;
+  position: absolute;
+}
+
+.footer-titulo {
+  width: 174px;
+  height: 28px;
+  margin-left: 121px;
+  margin-top: 30px;
+}
+.footer-titulo h3 {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #232323;
+}
+.camisetas {
+  margin-left: 118px;
+  margin-right: 183px;
+  display: flex;
+  justify-content: space-around;
+}
+.camisa {
+  width: 201px;
+  height: 236px;
+  background-color: #ffffff;
+}
+.camisa-img {
+  width: 180px;
+  height: 180px;
+  margin-left: 10.85px;
+  margin-right: 10.85px;
+  margin-top: 16.22px;
+}
+.criador {
+  width: 130px;
+  height: 23px;
+  margin-left: 34.47px;
+  margin-top: 7.94px;
+  margin-bottom: 9.31px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #232323;
+}
+.mod {
+  width: 143px;
+  height: 21px;
+  margin-left: 3.27px;
+  font-family: "Roboto";
+  font-size: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #232323;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+.modelos {
+  width: 385px;
+  height: 129px;
+  margin-top: 8.58px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.borda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bordermodelo {
+  width: 100px;
+  height: 100px;
+  background-color: #f2f2f2;
+  border: 0.5px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bordergola {
+  width: 100px;
+  height: 100px;
+  background-color: #f2f2f2;
+  border: 0.5px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bordertecido {
+  width: 100px;
+  height: 100px;
+  background-color: #f2f2f2;
+  border: 0.5px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 80px;
+  height: 80px;
+  display: flex;
+}
+.t-shirt {
+  width: 100px;
+  height: 129px;
+}
+.camiseta {
+  width: 100px;
+  height: 128px;
+}
+
+.manga-longa {
+  width: 100px;
+  height: 128px;
+}
+
+.egola {
+  width: 117px;
+  height: 21px;
+  margin-left: 3.27px;
+  font-family: "Roboto";
+  font-size: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #232323;
+  margin-top: 23px;
+}
+.golas {
+  width: 393px;
+  height: 129px;
+  margin-top: 9px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gola-v {
+  width: 100px;
+  height: 128px;
+}
+.gola-redonda {
+  width: 100px;
+  height: 128px;
+}
+
+.gola-polo {
+  width: 100px;
+  height: 128px;
+}
+
+.etecido {
+  width: 133px;
+  height: 21px;
+  margin-left: 3.27px;
+  font-family: "Roboto";
+  font-size: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #232323;
+  margin-top: 23px;
+}
+.tecidos {
+  width: 393px;
+  height: 129px;
+  margin-top: 9px;
+  display: flex;
+  justify-content: space-around;
+}
+.seda {
+  width: 100px;
+  height: 128px;
+}
+.algodao {
+  width: 100px;
+  height: 128px;
+}
+
+.poliester {
+  width: 100px;
+  height: 128px;
+}
+
+.imgref {
+  width: 175px;
+  height: 21px;
+  font-family: "Roboto";
+  font-size: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #232323;
+  margin-top: 32.84px;
+}
+input {
+  width: 385px;
+  height: 38px;
+  margin-top: 9.27px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+button {
+  width: 398px;
+  height: 40px;
+  margin-top: 23px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  color: #fcfcfc;
+}
+button.ativo {
+  background-color: #404eed;
+}
+
+.selecionado {
+  border: 3px solid #404eed;
+}

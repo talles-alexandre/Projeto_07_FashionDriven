@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "../Projeto_07_FashionDriven"
+    },
+    {
+      "path": "../Projeto_05_batePapoUOL"
+    },
+    {
+      "path": "../projeto2-instagram"
+    },
+    {
+      "path": "../projeto3-driveneats"
+    },
+    {
+      "path": "../Projeto 1 - globo.com"
+    },
+    {
+      "path": "../Projeto_04_parrotsCardGame"
+    },
+    {
+      "path": "../Projeto_06_BuzzQuizz/Buzz-quizz"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Projeto_07_FashionDriven"
+  }
+}

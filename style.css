@@ -89,6 +89,7 @@ footer {
   margin-left: 10.85px;
   margin-right: 10.85px;
   margin-top: 16.22px;
+  box-sizing: border-box;
 }
 .camisa img {
   width: 180px;

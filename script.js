@@ -117,7 +117,7 @@ function renderizarPedidos(response) {
       <img src="${pedidos[i].image}">
     </div>
     <div class="criador">
-      <h4>Criador: ${pedidos[i].author}</h4>
+      <h4>Criador: ${pedidos[i].owner}</h4>
     </div>
   </div>`;
   }

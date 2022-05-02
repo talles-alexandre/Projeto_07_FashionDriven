@@ -70,14 +70,17 @@ footer {
   color: #232323;
 }
 .camisetas {
+  width: 1300px;
+  height: 400px;
   margin-left: 118px;
-  margin-right: 183px;
+  margin-right: 200px;
+  overflow-x: scroll;
   display: flex;
-  justify-content: space-around;
 }
 .camisa {
+  margin-left: 0;
   width: 201px;
-  height: 236px;
+  height: 200px;
   background-color: #ffffff;
 }
 .camisa-img {
@@ -87,6 +90,12 @@ footer {
   margin-right: 10.85px;
   margin-top: 16.22px;
 }
+.camisa img {
+  width: 180px;
+  height: 180px;
+  background-size: cover;
+}
+
 .criador {
   width: 130px;
   height: 23px;

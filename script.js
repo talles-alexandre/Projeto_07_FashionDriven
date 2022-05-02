@@ -101,3 +101,25 @@ function tratarSucesso() {
 function tratarFalha() {
   alert("Pedido não foi enviado");
 }
+
+function obterPedido() {
+  const promise = axios.get(URL_API);
+  promise.then(renderizarPedidos);
+  promise.catch(() => console.log("Erro"));
+}
+
+function renderizarPedidos(response) {
+  pedidos = response.data;
+  allpedidos = document.querySelector(".camisetas");
+  for (let i = pedidos.length - 10; i < pedidos.length; i++) {
+    allpedidos.innerHTML += `<div class="camisa">
+    <div class="camisa-img">
+      <img src="${pedidos[i].image}">
+    </div>
+    <div class="criador">
+      <h4>Criador: ${pedidos[i].author}</h4>
+    </div>
+  </div>`;
+  }
+}
+obterPedido();
